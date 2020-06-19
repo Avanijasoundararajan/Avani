@@ -1,0 +1,19 @@
+class Test1{
+         public static void main(String args[])
+         {
+           int a=Integer.parseInt(args[0]);
+           if( a >0)
+           {
+             System.out.println("Postive");
+             }
+            else if(a<0)
+            {
+             System.out.println("Negative");
+             }
+            else
+            {
+             System.out.println("Zero");
+             }
+
+         }
+}
